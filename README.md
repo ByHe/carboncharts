@@ -1,6 +1,6 @@
 
 # Om du testar projektet
-Glöm inte installra efter det att du clonat reprot.
+Glöm inte installera efter det att du clonat reprot.
 ```bash
 npm install
 ```
