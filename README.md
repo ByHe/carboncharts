@@ -53,49 +53,49 @@ Där det nya är
 
 ## Format på data
 ### Exempel med en serie
-```json
+```javascript
 [
-      {
-         group: "CPU",
-         date: "2020-12-10T22:59:15.000Z",
-         value: 10,
-      },
-      {
-         group: "CPU",
-         date: "2020-12-10T22:59:30.000Z",
-         value: 15,
-      },
-      {
-         group: "CPU",
-         date: "2020-12-10T22:59:45.000Z",
-         value: 7,
+   {
+      group: "CPU",
+      date: "2020-12-10T22:59:15.000Z",
+      value: 10,
+   },
+   {
+      group: "CPU",
+      date: "2020-12-10T22:59:30.000Z",
+      value: 15,
+   },
+   {
+      group: "CPU",
+      date: "2020-12-10T22:59:45.000Z",
+      value: 7,
       }
 ]
 ```
 ### Exempel med två serier
 Serier åtskiljs med namnet till **group:**
-```json
+```javascript
 [
-      {
-         group: "CPU",
-         date: "2020-12-10T22:59:15.000Z",
-         value: 10,
-      },
-      {
-         group: "CPU",
-         date: "2020-12-10T22:59:30.000Z",
-         value: 15,
-      },
-      {
-         group: "Temp",
-         date: "2020-12-10T22:59:15.000Z",
-         value: 3,
-      },
-      {
-         group: "Temp",
-         date: "2020-12-10T22:59:30.000Z",
-         value: 7,
-      },
+   {
+      group: "CPU",
+      date: "2020-12-10T22:59:15.000Z",
+      value: 10,
+   },
+   {
+      group: "CPU",
+      date: "2020-12-10T22:59:30.000Z",
+      value: 15,
+   },
+   {
+      group: "Temp",
+      date: "2020-12-10T22:59:15.000Z",
+      value: 3,
+   },
+   {
+      group: "Temp",
+      date: "2020-12-10T22:59:30.000Z",
+      value: 7,
+   },
 
 ]
 ```
@@ -108,7 +108,7 @@ let options = ...;
 Under **timeScale** kan man göra mycket med hur x-axeln skall formateras. Antar att den skall ändras beroende på datan, day, week eller year.
 Enklelt då **option** blir ett objekt.
 
-```json
+```javascript
 timeScale: {
 timeIntervalFormats: {
    hourly: {
