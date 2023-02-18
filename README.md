@@ -11,9 +11,13 @@ npm install
 npm install -D @carbon/charts-svelte d3
 ```
 ### Filerna jag gjort
-Ligger i katalgen
+Komponenterna Btn och Chart ligger i
 ```bash
 src/lib/components
+```
+Test-api 
+```bash
+src/temp.json
 ```
 
 ### Ändringar
